@@ -1,0 +1,32 @@
+.form {
+	margin: 25px;
+	margin-bottom: 50px;
+}
+
+.form_fieldset {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.form__legend {
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(49, 24, 24);
+}
+
+.form__labelText {
+	display: inline-block;
+	width: 400px;
+	}
+
+.form__input {
+	padding: 7px;
+}
+
+.form__response {
+	font-weight:700;
+}
+
+.form__selectCurrency {
+	padding: 10px
+}
