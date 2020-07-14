@@ -6,10 +6,17 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	background-color: hs1(240, 20%, 95%);
+	background-image: url("../IMAGES/money.png");
+	background-repeat: no-repeat;
+}
+
 .container {
 	max-width :1000px;
+	padding: 200px;
 	width: 100%;
-	border: 1px pink solid;
+	/* border: 1px pink solid; */
 	font-family: 'Baloo Da 2', sans-serif;
 	margin:0 auto;
 }

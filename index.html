@@ -16,40 +16,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1 class="header">Przelicznik walut</h1>
-        </header>
-        <main>
-            <form class="form js-formConverted">
-                <fieldset class="form__fieldset">
-                    <legend class="form__legend">Przelicznik walut</legend>
-                    <p>
-                        <label>
-                            <span class="form__labelText">Wpisz kwotę w złotówkach</span>
-                            <input class="form__input js-amountZlotyToConverted" type="number" step="0.01" min="0"
-                                required>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span class="form__labelText">Wybierz walutę</span>
-                            <select class="form__selectCurrency js-currencySelector">
-                                <option value="USD">Dolar amerykański</option>
-                                <option value="GBP">Funt brytyjski</option>
-                                <option value="EURO">Euro</option>
-                            </select>
-                        </label>
-                    </p>
-                    <button class="js-submitPlOther" type="submit">Przelicz</button>
-                    <button type="reset">Wyczyść</button>
-                    <p class="form__response js-score">Wynik</p>
-                </fieldset>
-            </form>
-
-        </main>
-    </div>
-
-</body>
+         <div class="container">
+            <header>
+                <h1 class="header">Przelicznik walut</h1>
+            </header>
+            <main>
+                <form class="form js-formConverted">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Przelicznik walut</legend>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Wpisz kwotę w złotówkach</span>
+                                <input class="form__input js-amountZlotyToConverted" type="number" step="0.01" min="0"
+                                    required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Wybierz walutę</span>
+                                <select class="form__selectCurrency js-currencySelector">
+                                    <option value="USD">Dolar amerykański</option>
+                                    <option value="GBP">Funt brytyjski</option>
+                                    <option value="EURO">Euro</option>
+                                </select>
+                            </label>
+                        </p>
+                        <button class="js-submitPlOther" type="submit">Przelicz</button>
+                        <button type="reset">Wyczyść</button>
+                        <p class="form__response js-score">Wynik</p>
+                    </fieldset>
+                </form>
+            </main>
+        </div>
+    </body>
 
 </html>
